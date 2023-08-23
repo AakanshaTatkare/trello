@@ -1,0 +1,63 @@
+/* Styling for the whole board */
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100vh;
+  background-image: "https://www.bing.com/images/search?view=detailV2&ccid=r1f1q%2fYS&id=C5A213699FF0A80B412CDEFC349D36764BDB2314&thid=OIP.r1f1q_YS0W5q17peV6365wHaIH&mediaurl=https%3a%2f%2fthumbs.dreamstime.com%2fb%2ftodo-list-13838958.jpg&exph=877&expw=800&q=todo&simid=608028818318259861&FORM=IRPRST&ck=D66FB663A4C1097D3D6A45398DC3D65B&selectedIndex=42";
+}
+
+/* Styling for the swimlanes container */
+.swimlanes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Styling for each swimlane */
+.swimlane {
+  width: 30%; /* Adjust the width of each swimlane */
+  padding: 10px;
+  color: #494fb5;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc; /* Add border */
+  background-color: rgb(191, 188, 191);
+  height: 250%;
+}
+
+/* Styling for the task input */
+.task-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-input form {
+  display: flex;
+  gap: 10px;
+}
+
+.task-input input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-input button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #0056b3;
+}
